@@ -14,13 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
+remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
-baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title: "개발 블로그"
+description: "개발 팁 정리"
+baseurl: ""# the subpath of your site, e.g. "/blog"
+url: "https://starmin114.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
@@ -30,9 +30,11 @@ mathjax:
   combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
   tags:  # "none", "ams" (default), "all"
 google_fonts:
-  - name: "Source Sans Pro"
+  - name: "Nanum Gothic"
     weights: "400,400i,700,700i"
-  - name: "Lora"
+  - name: "Nanum Gothic Coding"
+    weights: "400,400i,700,700i"
+  - name: "Nanum Myeongjo"
     weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
@@ -91,9 +93,9 @@ defaults:
 
 # Site Author
 author:
-  name:
+  name: Lee Sung Min
   picture:
-  email:
+  email: starmin114@yonsei.ac.kr
   twitter:
   links:
     - title:
